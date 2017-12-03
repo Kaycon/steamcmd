@@ -4,6 +4,7 @@ MAINTAINER Kaycon "kaycon1@web.de"
 
 #Add steam user
 RUN useradd -m steam
+
 WORKDIR /home/steam
 
 #Download required packages
